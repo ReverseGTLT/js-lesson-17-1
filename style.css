@@ -1,0 +1,33 @@
+body {
+    background-color: #004282;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    width: 100%;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    height: 2rem;
+    width: 4rem;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    transition: 0.3s;
+}
+
+td:hover {
+    background-color: #175B9C;
+    box-shadow: inset 2px 3px 3px black;
+}
